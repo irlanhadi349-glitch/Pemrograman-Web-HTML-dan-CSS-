@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RJW</title>
+</head>
+
+<section class="ulasan">
+    <div class="navi">
+     <a href="Registrasi.html" class="sebelum"><b><<</b>
+        </a>
+     <a href="INDEX.HTML" class="setelah"><b>home</b></a>
+    </div>
+ <div class="ulasan-isi">
+    <div class="tempat">
+        <label for="tempat">Pilih tempat yang akan anda nilai</label>
+        <select name="" id="tempat">
+            <option value="">Air Terjun Sendang Gile</option>
+            <option value="">Gunung Rinjani</option>
+            <option value="">Kampung Adat Senaru</option>
+        </select>
+    </div><br>
+    <div class="tabel-ulasan">
+         <table border="1" >
+            <thead>
+             <tr>
+                
+                <th>Pelayanan</th>
+                <th>Senang</th>
+                <th>Cukup senang</th>
+                <th>Tidak senang</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+                <td>Suasana nyaman selama perjalanan</td>
+                <td><input type="radio" name="perjalanan"></td>
+                <td><input type="radio" name="perjalanan"></td>
+                <td><input type="radio" name="perjalanan"></td>
+             </tr>
+             <tr>
+                <td>Lingkungan sekitar destinasi bersih</td>
+                <td><input type="radio" name="bersih"></td>
+                <td><input type="radio" name="bersih"></td>
+                <td><input type="radio" name="bersih"></td>
+             </tr>
+             <tr>
+                <td>Pemandu ramah dan mengaksyikan</td>
+                <td><input type="radio" name="ramah"></td>
+                <td><input type="radio" name="ramah"></td>
+                <td><input type="radio" name="ramah"></td>
+             </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="nilai">
+        <p>Jenis pelayanan yang disukai:</p>
+      
+        <input type="checkbox" id="1" name="nilai[]" value="1">
+        <label for="1">Makanan</label>
+        <input type="checkbox" id="2" name="nilai[]" value="2">
+        <label for="2">Transportasi</label>
+        <input type="checkbox" id="3" name="nilai[]" value="3">
+        <label for="3">Kebersihan</label>
+        <input type="checkbox" id="4" name="nilai[]" value="4">
+        <label for="4">Informasi</label>
+        <input type="checkbox" id="5" name="nilai[]" value="5">
+        <label for="5">Keamanan</label><br><br>
+      
+        <label for="pengalaman">Pengalaman selama perjalanan</label><br>
+        <textarea name="" id="pengalaman" cols="65" rows="4"></textarea>
+    
+        <button class="tekan" type="submit">Serah</button>
+    </div>
+  </div>
+</body>

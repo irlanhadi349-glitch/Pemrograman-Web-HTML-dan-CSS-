@@ -1,0 +1,226 @@
+nav{
+    background-color: rgb(105, 177, 250);
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+
+nav h2{
+    float: left;
+    margin-right: 350px;
+    color: black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    background-image: white;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.home h2{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.home p{
+    text-align: center;
+    height: 500;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.deskripsi{
+    margin-top: 60px;
+}
+
+.home .foto img{
+    height: 200px;
+    width: 200px;
+    margin-right: 50px ;
+    border-color:rgb(229, 227, 236) ;
+    border-radius: 30%;
+    margin-bottom: 50 px;
+    
+}
+.foto .foto1{
+    margin-left: 300px;
+}
+.foto{
+    display: inline;
+    gap: 10 px;
+    margin-bottom: 20px;
+    
+}
+
+.penutup{
+    text-align: center;
+    font-family: arial;
+}
+
+.registrasi{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/025/791/048/small_2x/abstract-blue-colorful-template-banner-with-gradient-color-and-small-polka-dot-technology-background-design-with-liquid-shape-design-vector.jpg');
+    height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+
+
+.registrasi table,th,td{
+    margin: auto;
+    width: 500px;
+    height: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: black 2px solid;
+    background-color: white;
+}
+.navigasi{
+    position: relative;
+}
+.prev{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.next{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+     color: black;
+}
+
+.next:hover ,.prev:hover{
+    color: green;
+}
+
+
+    
+.formulir{
+    text-align: center;
+    margin-top: 70px;
+    border: black 2px solid;
+    width: 500px;
+    margin-left: 500px;
+    background-color: white;
+}
+.formulir input{
+    border: black 2px solid;
+    background-color: white;
+}
+.tombol button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: black 2px solid;
+    border-radius: 10%;
+    width: 100px;
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+
+.tombol button:hover{
+    background-color: rgb(232, 230, 235);
+    color: black;
+}
+
+
+.ulasan{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/025/791/048/small_2x/abstract-blue-colorful-template-banner-with-gradient-color-and-small-polka-dot-technology-background-design-with-liquid-shape-design-vector.jpg');
+    padding-top: 15px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.tempat{
+    margin-top: 50px;
+}
+.ulasan-isi{
+    border: black 2px solid;
+    width: 600px;
+    text-align: center;
+    margin-top:100px ;
+    background-color: white;
+    margin-left: 450px;
+}
+.navi{
+    position: relative;
+    
+}
+.sebelum{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.setelah{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+     color: black;
+}
+.sebelum:hover ,.setelah:hover{
+    color: green;
+}
+.tabel-ulasan{
+    width: 500px;
+    height: 50px;
+    margin-left: 50px;
+    
+}
+
+.nilai{
+    margin-top: 150px;}
+ 
+   
+.nilai textarea{
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 3%;
+}
+
+
+.tekan{
+   
+    border: black 2px solid;
+    border-radius: 10%;
+    width: 300px;
+    background-color: rgb(6, 6, 6);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.tekan:hover{
+    background-color: rgb(232, 230, 235);
+    color: black;
+}
